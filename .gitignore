@@ -1,0 +1,25 @@
+## Directory-based project format
+.idea/
+.mvn/
+
+## File-based project format
+*.iml
+*.ipr
+*.iws
+
+## Additional for IntelliJ
+out/
+target/
+
+## Linux
+*~
+
+## Frontend
+frontend/node_modules
+frontend/node
+frontend/dist
+frontend/webpack-cache
+
+src/test/resources/karma.conf.dev.js
+src/test/coverage
+src/main/local-resources/application-local.properties
